@@ -44,3 +44,7 @@ c1.addBill(Bill: h1)
 c1.printDetails()
 
 
+//creating bills for customer 3
+var m1 = Mobile(manufacturerName: "Samsung",modelName : "Galaxy S8+", planName: "Big Gig", mobileNumber: "0987654321", internetUsed: 6.7, minutes: 476, billAmount: 78.6, billId: "m001", billType:Bill.billTypes.Mobile, billDate: date3!)
+
+var c2 = Customer(customerId: "C003", firstName: "Peter", lastName: "Parker", email: "peter@gmail.com")
