@@ -26,7 +26,10 @@ var m = Mobile(manufacturerName: "Apple",modelName : "Iphone 11", planName: "Big
 var h = Hydro(agencyName: "Planet Energy", unitsConsumed: 56.7, billAmount: 150, billId: "H101", billType: Bill.billTypes.Hydro, billDate: date2!)
 //h.printDetails()
 
-var c = Customer(customerId: "C001", firstName: "John ", lastName: "Doe", email: "@gmail.com", billDictionary : [i.billId:i,m.billId:m,h.billId:h])
+var c = Customer(customerId: "C001", firstName: "John ", lastName: "Doe", email: "@gmail.com")
+c.addBill(Bill: i)
+c.addBill(Bill: m)
+c.addBill(Bill: h)
 c.printDetails()
 
 

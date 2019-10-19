@@ -22,16 +22,15 @@ class Customer : iPrintable
     var email : String
     var billDictionary = Dictionary<String,Bill>()
     
-    init(customerId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill>)
+    init(customerId : String, firstName : String, lastName : String, email : String)
     {
         self.customerId = customerId
         self.firstName = firstName
         self.lastName = lastName
         self.email = email
-        self.billDictionary = billDictionary
     }
     
-    
+    //calculating total bill for a customer 
     var sum : Float = 0
     func calculateTotalBill()-> Float{
         
@@ -70,6 +69,10 @@ class Customer : iPrintable
         print("____________________________________________________________________")
         print("Total Bill: \(calculateTotalBill().currFormat())")
         print("____________________________________________________________________")
+    }
+    func addBill(Bill : Bill)
+    {
+        billDictionary.updateValue(Bill, forKey: Bill.billId)
     }
     
 }
