@@ -7,8 +7,12 @@
 //
 
 import Foundation
-class Customer
+class Customer : iPrintable
 {
+   
+    
+    
+    
     var customerId : String
     var firstName : String
     var lastName : String
@@ -25,6 +29,9 @@ class Customer
         self.lastName = lastName
         self.email = email
         self.billDictionary = billDictionary
+    }
+    func printDetails() {
+        
     }
     
 }
