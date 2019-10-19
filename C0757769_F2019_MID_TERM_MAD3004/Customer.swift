@@ -11,8 +11,10 @@ class Customer
 {
     var customerId : String
     var firstName : String
-    var lastName : String!
-    var fullName : String
+    var lastName : String
+    var fullName : String {
+        return "\(firstName) \(lastName)"
+    }
     var email : String
     var billDictionary = Dictionary<String,Bill>()
     
@@ -23,7 +25,6 @@ class Customer
         self.lastName = lastName
         self.email = email
         self.billDictionary = billDictionary
-        self.fullName = firstName + lastName
     }
     
 }
