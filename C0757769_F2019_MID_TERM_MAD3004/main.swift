@@ -61,6 +61,8 @@ var m1 = Mobile(manufacturerName: "Samsung",modelName : "Galaxy S8+", planName: 
 var c2 = Customer(customerId: "C003", firstName: "Peter", lastName: "Parker", email: "peter@gmail.com")
 c2.addBill(Bill: m1)
 c2.printDetails()
+//adding customer to customer dictionary
+custDictionary.updateValue(c2, forKey: c2.customerId)
 
 
 //creating customer with no bills
