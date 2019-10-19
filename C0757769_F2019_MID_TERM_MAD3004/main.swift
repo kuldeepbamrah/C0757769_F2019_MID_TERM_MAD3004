@@ -36,7 +36,7 @@ c.addBill(Bill: i)
 c.addBill(Bill: m)
 c.addBill(Bill: h)
 //displaying customer bill detials
-c.printDetails()
+//c.printDetails()
 //adding customer to customer dictionary
 custDictionary.updateValue(c, forKey: c.customerId)
 
@@ -48,7 +48,7 @@ var h1 = Hydro(agencyName: "Planet Energy", unitsConsumed: 67.8, billAmount: 67,
 var c1 = Customer(customerId: "C002", firstName: "Richard ", lastName: "Stark", email: "@gmail.com")
 c1.addBill(Bill: i1)
 c1.addBill(Bill: h1)
-c1.printDetails()
+//c1.printDetails()
 
 //adding customer to customer dictionary
 custDictionary.updateValue(c1, forKey: c1.customerId)
@@ -60,15 +60,20 @@ var m1 = Mobile(manufacturerName: "Samsung",modelName : "Galaxy S8+", planName: 
 
 var c2 = Customer(customerId: "C003", firstName: "Peter", lastName: "Parker", email: "peter@gmail.com")
 c2.addBill(Bill: m1)
-c2.printDetails()
+//c2.printDetails()
 //adding customer to customer dictionary
 custDictionary.updateValue(c2, forKey: c2.customerId)
 
 
 //creating customer with no bills
 var c3 = Customer(customerId: "C004", firstName: "Ritik", lastName: "Jagpal", email: "@gmail.com")
-c3.printDetails()
+//c3.printDetails()
 //adding customer to customer dictionary
 custDictionary.updateValue(c3, forKey: c3.customerId)
 
+
+//displaying all customers Bill details
+for i in custDictionary.values{
+    i.printDetails()
+}
 

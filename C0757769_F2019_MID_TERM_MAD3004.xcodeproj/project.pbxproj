@@ -62,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				9B52A8D2235BB98E005AA6AE /* C0757769_F2019_MID_TERM_MAD3004 */,
-				9B52A8D1235BB98E005AA6AE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +71,7 @@
 				9B52A8D0235BB98E005AA6AE /* C0757769_F2019_MID_TERM_MAD3004 */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9B52A8D2235BB98E005AA6AE /* C0757769_F2019_MID_TERM_MAD3004 */ = {
@@ -85,6 +85,7 @@
 				9BD95281235BBE8000DC24F0 /* Hydro.swift */,
 				9BD95283235BBF2200DC24F0 /* Mobile.swift */,
 				9BD95285235BC0B000DC24F0 /* Customer.swift */,
+				9B52A8D1235BB98E005AA6AE /* Products */,
 			);
 			path = C0757769_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
