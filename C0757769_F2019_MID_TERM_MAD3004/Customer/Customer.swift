@@ -84,7 +84,7 @@ class Customer : iPrintable
             
         }
         print("--------------------------------------------------------------------")
-        print("Total Bill: \(calculateTotalBill().currFormat())")
+        print("Total Bill Amount to Pay: \(calculateTotalBill().currFormat())")
         print("--------------------------------------------------------------------")
         //testEmail(email: email)
     }

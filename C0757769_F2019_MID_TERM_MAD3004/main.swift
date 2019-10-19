@@ -83,17 +83,23 @@ for i in custDictionary.values{
 //2. finding cusotmers by customer Id
 func getCustomerById(CustomerId: String)
 {
+    var count = 0
     for (k,v) in custDictionary{
         if CustomerId.elementsEqual(k)
         {
             v.printDetails()
-        }else
-        {
-            print("Customer does not exist")
+            count = count + 1
+        }
+        }
+    if(count<1)
+    {
+        print("Customer does not exist")
     }
 }
-}
-//getCustomerById(CustomerId: "C001")
+getCustomerById(CustomerId: "C001")
+getCustomerById(CustomerId: "C005")
+
+
 
 
 
