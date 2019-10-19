@@ -16,11 +16,15 @@ class Customer : iPrintable
     var customerId : String
     var firstName : String
     var lastName : String
+    var email : String
+    var billDictionary = Dictionary<String,Bill>()
+    
+    
+    //creating fullname as calculated property
     var fullName : String {
         return "\(firstName) \(lastName)"
     }
-    var email : String
-    var billDictionary = Dictionary<String,Bill>()
+    
     
     init(customerId : String, firstName : String, lastName : String, email : String)
     {
@@ -70,6 +74,8 @@ class Customer : iPrintable
         print("Total Bill: \(calculateTotalBill().currFormat())")
         print("____________________________________________________________________")
     }
+    
+    //function to add bills
     func addBill(Bill : Bill)
     {
         billDictionary.updateValue(Bill, forKey: Bill.billId)
