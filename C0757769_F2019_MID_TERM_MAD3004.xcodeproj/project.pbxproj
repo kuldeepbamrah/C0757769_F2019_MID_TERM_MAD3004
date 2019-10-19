@@ -14,6 +14,7 @@
 		9BD95282235BBE8000DC24F0 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD95281235BBE8000DC24F0 /* Hydro.swift */; };
 		9BD95284235BBF2200DC24F0 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD95283235BBF2200DC24F0 /* Mobile.swift */; };
 		9BD95286235BC0B000DC24F0 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD95285235BC0B000DC24F0 /* Customer.swift */; };
+		9BD95289235BC3F400DC24F0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD95288235BC3F400DC24F0 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		9BD95281235BBE8000DC24F0 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9BD95283235BBF2200DC24F0 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		9BD95285235BC0B000DC24F0 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9BD95288235BC3F400DC24F0 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		9B52A8D2235BB98E005AA6AE /* C0757769_F2019_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				9BD95287235BC22100DC24F0 /* Extensions */,
 				9B52A8D3235BB98E005AA6AE /* main.swift */,
 				9B52A8DA235BBA5E005AA6AE /* Bill.swift */,
 				9BD9527D235BBC1200DC24F0 /* IPrintable.swift */,
@@ -78,6 +81,14 @@
 				9BD95285235BC0B000DC24F0 /* Customer.swift */,
 			);
 			path = C0757769_F2019_MID_TERM_MAD3004;
+			sourceTree = "<group>";
+		};
+		9BD95287235BC22100DC24F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9BD95288235BC3F400DC24F0 /* DateExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD95282235BBE8000DC24F0 /* Hydro.swift in Sources */,
+				9BD95289235BC3F400DC24F0 /* DateExtension.swift in Sources */,
 				9BD95286235BC0B000DC24F0 /* Customer.swift in Sources */,
 				9BD9527E235BBC1200DC24F0 /* IPrintable.swift in Sources */,
 				9B52A8DB235BBA5E005AA6AE /* Bill.swift in Sources */,

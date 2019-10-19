@@ -30,6 +30,8 @@ class Customer : iPrintable
         self.email = email
         self.billDictionary = billDictionary
     }
+    
+    
     func printDetails() {
         
     }

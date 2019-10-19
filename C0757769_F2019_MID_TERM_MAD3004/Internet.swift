@@ -14,14 +14,23 @@ class Internet : Bill
     var providerName : String
     var dataConsumed : Float
     
-    init(providerName : String, dataConsumed : Float, billId : String, billDate : String,billAmount: Float, billType : Bill.Types)
+    init(providerName : String, dataConsumed : Float, billId : String, billDate : String,billAmount: Float, billType : Bill.billTypes)
     {
         self.providerName = providerName
         self.dataConsumed = dataConsumed
         super.init(billId: billId, billDate: billDate, billType: billType,billAmount: billAmount)
     }
     
-    override func printDetails() {
+    override func printDetails()
+    {
+        print("*************************************************************")
+        print("Bill Id : \(billId)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        print("Provider Name : \(providerName)")
+        print("Data Consumed : \(dataConsumed)")
+        print("Bill Amount : \(totalBillAmount)")
+        
         
     }
     

@@ -15,7 +15,7 @@ class Hydro : Bill
     var agencyName:String
     var unitsConsumed: Float
     
-    init(agencyName:String,unitsConsumed:Float,billAmount : Float,billId : String,billType : Bill.Types,billDate : String)
+    init(agencyName:String,unitsConsumed:Float,billAmount : Float,billId : String,billType : Bill.billTypes,billDate : String)
     {
         self.agencyName=agencyName
         self.unitsConsumed=unitsConsumed
