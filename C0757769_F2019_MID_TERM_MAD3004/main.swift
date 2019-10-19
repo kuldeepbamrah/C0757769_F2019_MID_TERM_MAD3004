@@ -23,7 +23,8 @@ i.printDetails()
 var m = Mobile(manufacturerName: "Apple",modelName : "Iphone 11", planName: "Big Gig", mobileNumber: "123456789", internetUsed: 6.7, minutes: 476, billAmount: 78.6, billId: "m001", billType:Bill.billTypes.Mobile, billDate: date3!)
 m.printDetails()
 
-
+var h = Hydro(agencyName: "Planet Energy", unitsConsumed: 56.7, billAmount: 150, billId: "H101", billType: Bill.billTypes.Hydro, billDate: date2!)
+h.printDetails()
 
 
 
