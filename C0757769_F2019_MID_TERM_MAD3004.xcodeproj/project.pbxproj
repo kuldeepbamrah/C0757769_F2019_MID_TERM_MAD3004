@@ -18,6 +18,7 @@
 		9BD9528B235BC6EB00DC24F0 /* CurrencyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9528A235BC6EB00DC24F0 /* CurrencyExtension.swift */; };
 		9BD9528D235BCAA100DC24F0 /* AddMinutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9528C235BCAA100DC24F0 /* AddMinutes.swift */; };
 		9BD9528F235BCB1500DC24F0 /* MiscExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9528E235BCB1500DC24F0 /* MiscExtension.swift */; };
+		9BD95294235BD52A00DC24F0 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD95293235BD52A00DC24F0 /* Insurance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		9BD9528A235BC6EB00DC24F0 /* CurrencyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExtension.swift; sourceTree = "<group>"; };
 		9BD9528C235BCAA100DC24F0 /* AddMinutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMinutes.swift; sourceTree = "<group>"; };
 		9BD9528E235BCB1500DC24F0 /* MiscExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscExtension.swift; sourceTree = "<group>"; };
+		9BD95293235BD52A00DC24F0 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				9BD9527F235BBCFE00DC24F0 /* Internet.swift */,
 				9BD95281235BBE8000DC24F0 /* Hydro.swift */,
 				9BD95283235BBF2200DC24F0 /* Mobile.swift */,
+				9BD95293235BD52A00DC24F0 /* Insurance.swift */,
 			);
 			path = Bill;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				9BD95282235BBE8000DC24F0 /* Hydro.swift in Sources */,
 				9BD95289235BC3F400DC24F0 /* DateExtension.swift in Sources */,
+				9BD95294235BD52A00DC24F0 /* Insurance.swift in Sources */,
 				9BD95286235BC0B000DC24F0 /* Customer.swift in Sources */,
 				9BD9528B235BC6EB00DC24F0 /* CurrencyExtension.swift in Sources */,
 				9BD9527E235BBC1200DC24F0 /* IPrintable.swift in Sources */,
