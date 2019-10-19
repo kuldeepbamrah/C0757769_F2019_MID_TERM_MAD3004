@@ -21,7 +21,9 @@ class Internet : Bill
         super.init(billId: billId, billDate: billDate, billType: billType,billAmount: billAmount)
     }
     
-    
+    override func printDetails() {
+        
+    }
     
     
 }
