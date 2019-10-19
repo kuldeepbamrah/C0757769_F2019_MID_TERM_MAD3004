@@ -50,6 +50,10 @@ c1.addBill(Bill: i1)
 c1.addBill(Bill: h1)
 c1.printDetails()
 
+//adding customer to customer dictionary
+custDictionary.updateValue(c1, forKey: c1.customerId)
+
+
 
 //creating bills for customer 3
 var m1 = Mobile(manufacturerName: "Samsung",modelName : "Galaxy S8+", planName: "Big Gig", mobileNumber: "0987654321", internetUsed: 6.7, minutes: 476, billAmount: 78.6, billId: "m001", billType:Bill.billTypes.Mobile, billDate: date3!)
