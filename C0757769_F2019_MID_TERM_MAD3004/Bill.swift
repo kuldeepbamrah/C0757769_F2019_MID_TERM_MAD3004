@@ -11,15 +11,15 @@ class Bill : iPrintable
 {
     var billId : String
     var billDate :  String
-    enum Types {
+    enum billTypes {
         case Internet
         case Hydro
         case Mobile
     }
-    var billType : Types
+    var billType : billTypes
     var totalBillAmount : Float = 0
     
-    init(billId : String , billDate : String, billType : Types, billAmount: Float) {
+    init(billId : String , billDate : String, billType : billTypes, billAmount: Float) {
         self.billId = billId
         self.billDate = billDate
         self.billType = billType
