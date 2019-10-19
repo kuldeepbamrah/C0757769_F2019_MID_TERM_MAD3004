@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Insurance : Bill, iPrintable
+class Insurance : Bill
 {
     var provider : String
     enum Itypes {
@@ -20,17 +20,20 @@ class Insurance : Bill, iPrintable
     var endDate : String
     var totalAmountyearly : Float!
     
-    init(provider : String, Itype : Itypes, startDate : String, endDate : String, billId : String, billDate : String, )
+    init(provider : String, Itype : Itypes, startDate : String, endDate : String, billId : String, billDate : String,billType : Bill.billTypes, billAmount : Float)
     {
         
         self.provider = provider
         self.Itype = Itype
         self.startDate = startDate
         self.endDate = endDate
+        super.init(billId: billId, billDate: billDate, billType: billType, billAmount: billAmount)
         
     }
     
-    func printDetails() {
+    override func printDetails()
+    {
+        print("*************************************************************")
     }
     
     
