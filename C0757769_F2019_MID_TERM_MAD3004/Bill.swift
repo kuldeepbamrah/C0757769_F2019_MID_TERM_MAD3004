@@ -9,8 +9,25 @@
 import Foundation
 class Bill : iPrintable
 {
+    var billId : String
+    var billDate :  String
+    enum Types {
+        case Internet
+        case Hydro
+        case Mobile
+    }
+    var billType : Types
+    var totalBillAmount : Float = 0
+    
+    
+    
+    
+    
+    
+    
+    
     func printDetails() {
-        <#code#>
+        
     }
     
     
