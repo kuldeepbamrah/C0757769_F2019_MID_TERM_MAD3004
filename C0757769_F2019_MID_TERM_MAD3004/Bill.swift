@@ -19,12 +19,12 @@ class Bill : iPrintable
     var billType : Types
     var totalBillAmount : Float = 0
     
-    
-    
-    
-    
-    
-    
+    init(billId : String , billDate : String, billType : Types, billAmount: Float) {
+        self.billId = billId
+        self.billDate = billDate
+        self.billType = billType
+        self.totalBillAmount = billAmount
+    }
     
     func printDetails() {
         
