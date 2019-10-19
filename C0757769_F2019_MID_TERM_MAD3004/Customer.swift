@@ -62,7 +62,7 @@ class Customer : iPrintable
         {
             print("Customer has no outstanding Bills")
         }
-        
+        else{
         
         //display bill details by iterating through bill dictionary
         for i in billDictionary.values
@@ -74,7 +74,7 @@ class Customer : iPrintable
         print("Total Bill: \(calculateTotalBill().currFormat())")
         print("____________________________________________________________________")
     }
-    
+    }
     //function to add bills
     func addBill(Bill : Bill)
     {
