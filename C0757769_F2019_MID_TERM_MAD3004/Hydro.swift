@@ -9,6 +9,10 @@
 import Foundation
 
 
-class Hydro{
+class Hydro
+{
+    
+    var agencyName:String
+    var unitsConsumed: Float
     
 }
