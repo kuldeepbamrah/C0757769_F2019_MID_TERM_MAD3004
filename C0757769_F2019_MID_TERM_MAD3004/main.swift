@@ -75,9 +75,9 @@ custDictionary.updateValue(c3, forKey: c3.customerId)
 
 
 // 1. displaying all customers Bill details
-/*for i in custDictionary.values{
+for i in custDictionary.values{
     i.printDetails()
-}*/
+}
 
 
 //2. finding cusotmers by customer Id
@@ -93,7 +93,7 @@ func getCustomerById(CustomerId: String)
     }
 }
 }
-getCustomerById(CustomerId: "C001")
+//getCustomerById(CustomerId: "C001")
 
 
 

@@ -34,6 +34,19 @@ class Customer : iPrintable
         self.email = email
     }
     
+    
+    //function to validate email
+    func testEmail(email: String)
+    {
+        if email.contains("@gmail.com")
+        {
+            print("Email is valid")
+        }
+        else{
+            print("Please inpu valid email")
+        }
+    }
+    
     //calculating total bill for a customer 
     var sum : Float = 0
     func calculateTotalBill()-> Float{
@@ -73,6 +86,7 @@ class Customer : iPrintable
         print("--------------------------------------------------------------------")
         print("Total Bill: \(calculateTotalBill().currFormat())")
         print("--------------------------------------------------------------------")
+        testEmail(email: email)
     }
     }
     
