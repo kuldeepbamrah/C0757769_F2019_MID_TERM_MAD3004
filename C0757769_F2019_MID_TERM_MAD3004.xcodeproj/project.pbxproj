@@ -15,6 +15,7 @@
 		9BD95284235BBF2200DC24F0 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD95283235BBF2200DC24F0 /* Mobile.swift */; };
 		9BD95286235BC0B000DC24F0 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD95285235BC0B000DC24F0 /* Customer.swift */; };
 		9BD95289235BC3F400DC24F0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD95288235BC3F400DC24F0 /* DateExtension.swift */; };
+		9BD9528B235BC6EB00DC24F0 /* CurrencyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9528A235BC6EB00DC24F0 /* CurrencyExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		9BD95283235BBF2200DC24F0 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		9BD95285235BC0B000DC24F0 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		9BD95288235BC3F400DC24F0 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		9BD9528A235BC6EB00DC24F0 /* CurrencyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				9BD95288235BC3F400DC24F0 /* DateExtension.swift */,
+				9BD9528A235BC6EB00DC24F0 /* CurrencyExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				9BD95282235BBE8000DC24F0 /* Hydro.swift in Sources */,
 				9BD95289235BC3F400DC24F0 /* DateExtension.swift in Sources */,
 				9BD95286235BC0B000DC24F0 /* Customer.swift in Sources */,
+				9BD9528B235BC6EB00DC24F0 /* CurrencyExtension.swift in Sources */,
 				9BD9527E235BBC1200DC24F0 /* IPrintable.swift in Sources */,
 				9B52A8DB235BBA5E005AA6AE /* Bill.swift in Sources */,
 				9BD95284235BBF2200DC24F0 /* Mobile.swift in Sources */,

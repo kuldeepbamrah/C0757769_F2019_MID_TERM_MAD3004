@@ -29,7 +29,7 @@ class Internet : Bill
         print("Bill Date : \(billDate)")
         print("Provider Name : \(providerName)")
         print("Data Consumed : \(dataConsumed)")
-        print("Bill Amount : \(totalBillAmount)")
+        print("Bill Amount : \(totalBillAmount.currFormat())")
         
         
     }
