@@ -75,6 +75,8 @@ class Customer : iPrintable
         print("____________________________________________________________________")
     }
     }
+    
+    
     //function to add bills
     func addBill(Bill : Bill)
     {
