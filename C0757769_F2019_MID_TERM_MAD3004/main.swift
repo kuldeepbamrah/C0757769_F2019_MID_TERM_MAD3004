@@ -68,7 +68,7 @@ custDictionary.updateValue(c2, forKey: c2.customerId)
 //creating customer with no bills
 var c3 = Customer(customerId: "C004", firstName: "Ritik", lastName: "Jagpal", email: "@gmail.com")
 c3.printDetails()
-
-
+//adding customer to customer dictionary
+custDictionary.updateValue(c3, forKey: c3.customerId)
 
 
