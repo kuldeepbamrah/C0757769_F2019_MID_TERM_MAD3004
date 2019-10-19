@@ -15,4 +15,15 @@ class Customer
     var fullName : String
     var email : String
     var billDictionary = Dictionary<String,Bill>()
+    
+    init(customerId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill>)
+    {
+        self.customerId = customerId
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+        self.billDictionary = billDictionary
+        self.fullName = firstName + lastName
+    }
+    
 }
