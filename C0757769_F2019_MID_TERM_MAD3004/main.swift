@@ -71,9 +71,27 @@ var c3 = Customer(customerId: "C004", firstName: "Ritik", lastName: "Jagpal", em
 //adding customer to customer dictionary
 custDictionary.updateValue(c3, forKey: c3.customerId)
 
+//+++++++++++++ Do as Directed+++++++++++++++++++
 
-//displaying all customers Bill details
-for i in custDictionary.values{
+
+// 1. displaying all customers Bill details
+/*for i in custDictionary.values{
     i.printDetails()
+}*/
+
+
+//2. finding cusotmers by customer Id
+func getCustomerById(CustomerId: String)
+{
+    for (k,v) in custDictionary{
+        if CustomerId.elementsEqual(k)
+        {
+            v.printDetails()
+        }else
+        {
+            print("Customer does not exist")
+    }
 }
+}
+getCustomerById(CustomerId: "C001")
 
