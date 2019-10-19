@@ -20,7 +20,10 @@ let date3 = formatter.date(from: "2019/10/01")?.dateformatter()
 var i = Internet(providerName: "Freedom", dataConsumed: 45.7, billId: "I001", billDate: date1!, billAmount: 56.7, billType: Bill.billTypes.Internet)
 i.printDetails()
 
-var m = Mobile(manufacturerName: "Apple", planName: "Big Gig", mobileNumber: "123456789", internetUsed: 6.7, minutes: 476, billAmount: 78.6, billId: "m001", billType:Bill.billTypes.Mobile, billDate: date3!)
+var m = Mobile(manufacturerName: "Apple",modelName : "Iphone 11", planName: "Big Gig", mobileNumber: "123456789", internetUsed: 6.7, minutes: 476, billAmount: 78.6, billId: "m001", billType:Bill.billTypes.Mobile, billDate: date3!)
+m.printDetails()
+
+
 
 
 
