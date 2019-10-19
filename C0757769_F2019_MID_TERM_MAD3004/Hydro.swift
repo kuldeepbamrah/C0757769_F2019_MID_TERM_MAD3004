@@ -30,7 +30,7 @@ class Hydro : Bill
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")
         print("Agency Name : \(agencyName)")
-        print("Unit Consumed : \(unitsConsumed)")
+        print("Unit Consumed : \(unitsConsumed.insertUnits())")
         print("Bill Amount : \(totalBillAmount.currFormat())")
     }
 }
