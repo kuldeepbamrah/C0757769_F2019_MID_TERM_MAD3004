@@ -37,7 +37,7 @@ class Mobile : Bill
         print("Mobile Model : \(model)")
         print("Plan Name : \(planName)")
         print("Mobile number : \(mobileNumber)")
-        print("Minutes used : \(minutes)")
+        print("Minutes used : \(minutes.addMinutes())")
         
         print("Internet Used : \(internetUsage)")
         print("Bill Amount : \(totalBillAmount.currFormat())")

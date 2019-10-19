@@ -16,6 +16,7 @@
 		9BD95286235BC0B000DC24F0 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD95285235BC0B000DC24F0 /* Customer.swift */; };
 		9BD95289235BC3F400DC24F0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD95288235BC3F400DC24F0 /* DateExtension.swift */; };
 		9BD9528B235BC6EB00DC24F0 /* CurrencyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9528A235BC6EB00DC24F0 /* CurrencyExtension.swift */; };
+		9BD9528D235BCAA100DC24F0 /* AddMinutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9528C235BCAA100DC24F0 /* AddMinutes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		9BD95285235BC0B000DC24F0 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		9BD95288235BC3F400DC24F0 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		9BD9528A235BC6EB00DC24F0 /* CurrencyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExtension.swift; sourceTree = "<group>"; };
+		9BD9528C235BCAA100DC24F0 /* AddMinutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMinutes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				9BD95288235BC3F400DC24F0 /* DateExtension.swift */,
 				9BD9528A235BC6EB00DC24F0 /* CurrencyExtension.swift */,
+				9BD9528C235BCAA100DC24F0 /* AddMinutes.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				9BD9527E235BBC1200DC24F0 /* IPrintable.swift in Sources */,
 				9B52A8DB235BBA5E005AA6AE /* Bill.swift in Sources */,
 				9BD95284235BBF2200DC24F0 /* Mobile.swift in Sources */,
+				9BD9528D235BCAA100DC24F0 /* AddMinutes.swift in Sources */,
 				9BD95280235BBCFE00DC24F0 /* Internet.swift in Sources */,
 				9B52A8D4235BB98E005AA6AE /* main.swift in Sources */,
 			);
