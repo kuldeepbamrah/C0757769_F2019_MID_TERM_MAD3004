@@ -32,8 +32,44 @@ class Customer : iPrintable
     }
     
     
-    func printDetails() {
+    var sum : Float = 0
+    func calculateTotalBill()-> Float{
         
+        for i in billDictionary.values
+        {
+            sum += i.totalBillAmount
+            
+        }
+        
+        return sum
+    }
+    
+    
+    func printDetails()
+    {
+        print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+        print("Customer Id : \(customerId)")
+        print("Full Name : \(fullName)")
+        print("Email Address: \(email)")
+        
+        print("-------------------------Billing details---------------------------")
+        
+        //check if customer has any bills
+        if billDictionary.count == 0
+        {
+            print("Customer has no outstanding Bills")
+        }
+        
+        
+        //display bill details by iterating through bill dictionary
+        for i in billDictionary.values
+        {
+            i.printDetails()
+            
+        }
+        print("____________________________________________________________________")
+        print("Total Bill: \(calculateTotalBill().currFormat())")
+        print("____________________________________________________________________")
     }
     
 }
