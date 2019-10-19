@@ -12,5 +12,16 @@ class Internet : Bill
     
     
     var providerName : String
-    var gbUsed : Float
+    var dataConsumed : Float
+    
+    init(providerName : String, dataConsumed : Float, billId : String, billDate : String,billAmount: Float, billType : Bill.Types)
+    {
+        self.providerName = providerName
+        self.dataUsed = gbUsed
+        super.init(billId: billId, billDate: billDate, billType: billType,billAmount: billAmount)
+    }
+    
+    
+    
+    
 }
