@@ -20,6 +20,7 @@ class Insurance : Bill
     var endDate : String
     var totalAmountyearly : Float!
     
+    
     init(provider : String, Itype : Itypes, startDate : String, endDate : String, billId : String, billDate : String,billType : Bill.billTypes, billAmount : Float)
     {
         
@@ -28,13 +29,25 @@ class Insurance : Bill
         self.startDate = startDate
         self.endDate = endDate
         super.init(billId: billId, billDate: billDate, billType: billType, billAmount: billAmount)
+
         
     }
     
     override func printDetails()
     {
         print("*************************************************************")
+        print("Bill Id : \(billId)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        print("Provider : \(provider)")
+        print("Insurance Type : \(Itype)")
+        print("Start Date : \(startDate)")
+        print("End date : \(endDate)")
+        print("Total Preminum : \(calYearlypremium().currFormat())")
     }
     
-    
+    func calYearlypremium()->Float
+    {
+        return super.totalBillAmount*12
+    }
 }

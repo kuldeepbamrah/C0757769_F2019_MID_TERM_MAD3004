@@ -15,6 +15,7 @@ formatter.dateFormat = "yyyy/MM/dd"
 let date1 = formatter.date(from: "2019/08/01")?.dateformatter()
 let date2 = formatter.date(from: "2019/09/01")?.dateformatter()
 let date3 = formatter.date(from: "2019/10/01")?.dateformatter()
+let date4 = formatter.date(from: "2020/08/01")?.dateformatter()
 
 
 //creating customer Dictionary
@@ -70,6 +71,15 @@ var c3 = Customer(customerId: "C004", firstName: "Ritik", lastName: "Jagpal", em
 //c3.printDetails()
 //adding customer to customer dictionary
 custDictionary.updateValue(c3, forKey: c3.customerId)
+
+
+
+
+//creating object for insurance
+var ins = Insurance(provider: "HDFC", Itype: Insurance.Itypes.Home, startDate: date1!, endDate: date4!, billId: "INS001", billDate: date1!, billType: Bill.billTypes.Insurance, billAmount: 78.6)
+var c4 = Customer(customerId: "C005", firstName: "Honey", lastName: "Bunny", email: "hunny@gmail.com")
+c4.addBill(Bill: ins)
+c4.printDetails()
 
 //+++++++++++++ Do as Directed+++++++++++++++++++
 

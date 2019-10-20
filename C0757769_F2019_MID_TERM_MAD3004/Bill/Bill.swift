@@ -15,6 +15,7 @@ class Bill : iPrintable
         case Internet
         case Hydro
         case Mobile
+        case Insurance
     }
     var billType : billTypes
     var totalBillAmount : Float = 0
