@@ -103,11 +103,11 @@ func getCustomerById(CustomerId: String)
         }
     if(count<1)
     {
-        print("Customer does not exist")
+        print("Customer with Id : \(CustomerId) does not exist")
     }
 }
-getCustomerById(CustomerId: "C001")
-getCustomerById(CustomerId: "C005")
+//getCustomerById(CustomerId: "C001")
+getCustomerById(CustomerId: "C006")
 
 
 

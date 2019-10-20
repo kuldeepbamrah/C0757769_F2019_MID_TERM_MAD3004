@@ -43,6 +43,7 @@ class Insurance : Bill
         print("Insurance Type : \(Itype)")
         print("Start Date : \(startDate)")
         print("End date : \(endDate)")
+        print("Duration : 12 Months")
         print("Monthly Premium : \(totalBillAmount.currFormat())")
         print("Yearly Premium : \(calYearlypremium().currFormat())")
     }
