@@ -43,7 +43,8 @@ class Insurance : Bill
         print("Insurance Type : \(Itype)")
         print("Start Date : \(startDate)")
         print("End date : \(endDate)")
-        print("Total Preminum : \(calYearlypremium().currFormat())")
+        print("Monthly Premium : \(totalBillAmount.currFormat())")
+        print("Yearly Premium : \(calYearlypremium().currFormat())")
     }
     
     func calYearlypremium()->Float
